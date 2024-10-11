@@ -13,10 +13,10 @@ public class ThrowingAdder {
 
     public long add(long a, long b) {
         if (a > 0 && b > 0 && a + b < 0) {
-            throw new ArithmeticException("int overflow");
+            throw new ArithmeticException("long overflow");
         }
         else if (a < 0 && b < 0 && a + b > 0) {
-            throw new ArithmeticException("int overflow");
+            throw new ArithmeticException("long overflow");
         }
         else return a + b;
         // Чтобы бросить исключение можно написать
