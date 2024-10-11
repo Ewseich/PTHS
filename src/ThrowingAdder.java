@@ -19,7 +19,6 @@ public class ThrowingAdder {
             throw new ArithmeticException("long overflow");
         }
         else return a + b;
-        // Чтобы бросить исключение можно написать
         // throw new ArithmeticException("long overflow");
     }
 }
